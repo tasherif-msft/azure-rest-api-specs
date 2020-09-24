@@ -316,9 +316,6 @@
               "$ref": "#/definitions/StorageError"
             }
           }
-        },
-        "x-ms-pageable": {
-          "nextLinkName": "NextMarker"
         }
       },
       "parameters": [
@@ -2034,9 +2031,6 @@
               "$ref": "#/definitions/StorageError"
             }
           }
-        },
-        "x-ms-pageable": {
-          "nextLinkName": "NextMarker"
         }
       },
       "parameters": [
@@ -2138,9 +2132,6 @@
               "$ref": "#/definitions/StorageError"
             }
           }
-        },
-        "x-ms-pageable": {
-          "nextLinkName": "NextMarker"
         }
       },
       "parameters": [
@@ -5954,7 +5945,7 @@
             "$ref": "#/parameters/SourceIfNoneMatch"
           },
           {
-            "$ref": "#/parameters/SourceIfTags"	
+            "$ref": "#/parameters/SourceIfTags"
           },
           {
             "$ref": "#/parameters/IfModifiedSince"
@@ -10548,7 +10539,7 @@
           "$ref": "#/definitions/QuerySerialization",
           "xml": {
             "name": "InputSerialization"
-          }      
+          }
         },
         "OutputSerialization": {
           "$ref": "#/definitions/QuerySerialization",
