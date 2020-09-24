@@ -316,6 +316,9 @@
               "$ref": "#/definitions/StorageError"
             }
           }
+        },
+        "x-ms-pageable": {
+          "nextLinkName": "NextMarker"
         }
       },
       "parameters": [
@@ -2031,6 +2034,9 @@
               "$ref": "#/definitions/StorageError"
             }
           }
+        },
+        "x-ms-pageable": {
+          "nextLinkName": "NextMarker"
         }
       },
       "parameters": [
@@ -2132,6 +2138,9 @@
               "$ref": "#/definitions/StorageError"
             }
           }
+        },
+        "x-ms-pageable": {
+          "nextLinkName": "NextMarker"
         }
       },
       "parameters": [
